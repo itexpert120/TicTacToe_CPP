@@ -26,8 +26,8 @@ int main() {
 		++count;
 	} while (count < 9 && gameOver(board));
 
-	greetings();
 	system("cls");
+	greetings();
 	drawBoard(board);
 	
 	if (count == 9) {
