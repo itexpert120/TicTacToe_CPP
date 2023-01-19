@@ -2,10 +2,12 @@
 #include <stdlib.h>
 #include <iostream>
 
+// global variables
 char turn{ 'X' };
 int position{ 0 };
 int count { 0 };
 
+// function prototypes
 void greetings();
 void drawBoard(const std::vector < char > &board);
 void updateBoard(std::vector < char > &board, char &turn); 
